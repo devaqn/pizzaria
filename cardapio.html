@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="csscardapio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cardápio</h1>
+        </header>
+
+        <nav class="menu-categories">
+            <button class="category-btn" data-category="bebidas">bebidas</button>
+            <button class="category-btn" data-category="sobremesas">sobremesas</button>
+            <button class="category-btn" data-category="petiscos">petiscos</button>
+            <button class="category-btn active" data-category="pizza">pizza</button>
+            <button class="category-btn" data-category="outros">outros</button>
+        </nav>
+
+        <div class="menu-items">
+            <div class="menu-item pizza">
+                <div class="item-image">
+                    <img src="https://via.placeholder.com/300" alt="Pizza de Calabresa">
+                </div>
+                <div class="item-details">
+                    <h3>Pizza de Calabresa</h3>
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <button class="order-btn">Peça já!</button>
+                </div>
+            </div>
+
+            <div class="menu-item pizza">
+                <div class="item-image">
+                    <img src="https://via.placeholder.com/300" alt="Pizza de Sensação">
+                </div>
+                <div class="item-details">
+                    <h3>Pizza de Sensação</h3>
+                    <p>Chocolate + morango</p>
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <button class="order-btn">Peça já!</button>
+                </div>
+            </div>
+
+            <div class="menu-item pizza">
+                <div class="item-image">
+                    <img src="https://via.placeholder.com/300" alt="Pizza de Camarão">
+                </div>
+                <div class="item-details">
+                    <h3>Pizza de Camarão</h3>
+                    <p>16 fatias</p>
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <button class="order-btn">Peça já!</button>
+                </div>
+            </div>
+
+            <div class="menu-item pizza">
+                <div class="item-image">
+                    <img src="https://via.placeholder.com/300" alt="Pizza 4 Queijos">
+                </div>
+                <div class="item-details">
+                    <h3>Pizza 4 Queijos</h3>
+                    <div class="stars">
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                        <span class="star">★</span>
+                    </div>
+                    <button class="order-btn">Peça já!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="jscardapio.js"></script>
+</body>
+</html>

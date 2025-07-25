@@ -20,7 +20,15 @@ background-color: #AC895C;
     display: block;
 }
 
+.buscanav a {
+    color: black;
+    text-decoration: none;
+}
 
+.buscanav a:hover {
+    color: black;
+    text-decoration: none;
+}
 
 #carrinho{
     align-self: center;
@@ -38,6 +46,7 @@ background-color: #AC895C;
     max-width: 8%;
     align-items: start;
 }
+
 .search-container {
     position: relative;
     width: 200px; /* mesma largura do input */
@@ -57,7 +66,6 @@ background-color: #AC895C;
     font-size: 14px;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
-
 
 #search:focus {
     outline: none;
