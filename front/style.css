@@ -1,0 +1,86 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+background-color: #DBB381;
+}
+
+.navbar{
+background-color: #AC895C;
+    display: flex;
+    gap: 5%;
+
+}
+
+.buscanav{
+    margin-top: 3%;
+    display: block;
+}
+
+
+
+#carrinho{
+    align-self: center;
+    margin-right: 3%;
+    display: flex;
+    width:50px;
+    height: 50px;
+    align-items: end;
+    
+}
+
+#pizzalogo{
+    margin-left: 5%;
+    display: block;
+    max-width: 8%;
+    align-items: start;
+}
+.search-container {
+    position: relative;
+    width: 200px; /* mesma largura do input */
+    align-self: center;
+}
+
+#search {
+    background-color: #D9D9D9;
+    align-self: center;
+    padding-right: 0px; /* espaço para a lupa */
+    padding-left: 15px;
+    height: 45px;
+    width:250px;
+    border-radius: 25px;
+    border: 2px solid #ccc;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+    font-size: 14px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+#search:focus {
+    outline: none;
+
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+}
+
+#search::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+#lupa {
+    position: absolute;
+    left: 105%;
+    top: 18%;
+    width: 30px;
+    height: 30px;
+    pointer-events: none;
+}
+
+#lupa img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
